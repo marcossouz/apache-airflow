@@ -64,10 +64,12 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `airflow dags backfill example_bash_operator --start-date 2022-04-06 --end-date 2022-04-08`
   - [x] 5.10 - Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
     - `export AIRFLOW_HOME=~/airflow` in ~/.bashrc
-- [ ] 6 - PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
-  - [ ] 6.1 - Migrando o BACKEND (Metastore DB) do SQLITE para o POSTGRESQL
-  - [ ] 6.2 - Preparando o Ambiente para a Migração do Metastore DB (Backend)
-  - [ ] 6.3 - Configurações para o Airflow em Produção (airflow.cfg)
+- [x] 6 - PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
+  - [x] 6.1 - Migrando o BACKEND (Metastore DB) do SQLITE para o POSTGRESQL
+  - [x] 6.2 - Preparando o Ambiente para a Migração do Metastore DB (Backend)
+  - [x] 6.3 - Configurações para o Airflow em Produção (airflow.cfg)
+    - `# vim ~/airflow/airflow.cfg`
+    - `sql_alchemy_conn = postgres+psycopg2://airflow:airflow@localhost/airflow`
   - [ ] 6.4 - Instalando o PostgreSQL
   - [ ] 6.5 - Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
   - [ ] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
