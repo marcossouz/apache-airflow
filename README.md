@@ -49,6 +49,12 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
       - `-rw-r--r-- 1 root root 604K abr  9 00:00 airflow.db`
     - `vim airflow.cfg`
   - [x] 5.6 - Criando um Usuário no Apache AIRFLOW
+    - `airflow users create \
+    - > --username admin \
+    - > --firstname Silvester \
+    - > --lastname Stalone \
+    - > --role Admin \
+    - > --email silvester@email.com`
   - [ ] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
   - [ ] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
   - [ ] 5.9 - Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
