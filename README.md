@@ -29,7 +29,7 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
   - [x] 4.1 - Conhecendo o Azkaban e o Apache OOZIE
 - [ ] 5 - HANDS ON: INSTALANDO, CONFIGURANDO E INICIALIZANDO O APACHE AIRFLOW
   - [x] 5.1 - Instalação do Apache AIRFLOW
-  - [ ] 5.2 - Configurando o seu Ambiente para as Práticas (HANDS ON)
+  - [x] 5.2 - Configurando o seu Ambiente para as Práticas (HANDS ON)
   - [ ] 5.3 - Instalando o Apache AIRFLOW utilizando o PIP (Python)
   - [ ] 5.4 - Inicializando o MetaStore no Apache AIRFLOW
   - [ ] 5.5 - Conhecendo as Configurações do Apache AIRFLOW (airflow.cfg)
@@ -57,3 +57,4 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
 # Referências
 
 - https://www.udemy.com/course/apache-airflow-bootcamp/
+- https://www.virtualbox.org/wiki/Downloads
