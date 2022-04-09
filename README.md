@@ -55,8 +55,10 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `> --lastname Stalone \`
     - `> --role Admin \`
     - `> --email silvester@email.com`
-  - [ ] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
-  - [ ] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
+  - [x] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
+    - `airflow webserver --port 8080`
+    - `airflow scheduler`
+  - [x] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
   - [ ] 5.9 - Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
   - [ ] 5.10 - Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
 - [ ] 6 - PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
