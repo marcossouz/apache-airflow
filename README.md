@@ -4,55 +4,55 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
 
 # Conteúdo
 
-- [ ] CONHECENDO O APACHE AIRFLOW
-  - [x] Introdução ao Apache AIRFLOW
-  - [x] Principais Características do Apache AIRFLOW - Parte I
-  - [x] Principais Características do Apache AIRFLOW - Parte II
-  - [ ] Vamos Imaginar Um Caso de Uso Bem Comum para o Apache AIRFLOW
-  - [ ] Porque usar o Apache AIRFLOW?
-  - [ ] Mais Motivos para Usar o Apache AIRFLOW
-- [ ] MERGULHANDO NO APACHE AIRFLOW
-  - [ ] Arquitetura do Apache Airflow
-  - [ ] Conhecendo os DAGs
-  - [ ] Airflow - Default Parameters, Context Manager e Operators
-  - [ ] Airflow - Hooks e Pools
-  - [ ] Airflow - Connections e Filas
-  - [ ] Airflow - XCOMS, Variáveis e Branching
-  - [ ] Airflow - SUB DAGs e SLA (Service Level Agreement)
-  - [ ] Airflow - Trigger Rules e Last Execution Only
-  - [ ] Airflow - Zombies/Undeads, Cluster Policies, Jinja Templating e Packaged DAGs
-  - [ ] Airflow - Conhecendo o Recurso "BACKFILL"
-- [ ] AIRFLOW OPERATORS
-  - [ ] Entendendo os OPERATORS no Apache AIRFLOW
-  - [ ] Principais OPERATORS do Apache AIRFLOW
-- [ ] ALTERNATIVAS AO APACHE AIRFLOW
-  - [ ] Conhecendo o Azkaban e o Apache OOZIE
-- [ ] HANDS ON: INSTALANDO, CONFIGURANDO E INICIALIZANDO O APACHE AIRFLOW
-  - [ ] Instalação do Apache AIRFLOW
-  - [ ] Configurando o seu Ambiente para as Práticas (HANDS ON)
-  - [ ] Instalando o Apache AIRFLOW utilizando o PIP (Python)
-  - [ ] Inicializando o MetaStore no Apache AIRFLOW
-  - [ ] Conhecendo as Configurações do Apache AIRFLOW (airflow.cfg)
-  - [ ] Criando um Usuário no Apache AIRFLOW
-  - [ ] Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
-  - [ ] Acessando e Conhecendo a Interface Web do Apache AIRFLOW
-  - [ ] Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
-  - [ ] Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
-- [ ] PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
-  - [ ] Migrando o BACKEND (Metastore DB) do SQLITE para o POSTGRESQL
-  - [ ] Preparando o Ambiente para a Migração do Metastore DB (Backend)
-  - [ ] Configurações para o Airflow em Produção (airflow.cfg)
-  - [ ] Instalando o PostgreSQL
-  - [ ] Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
-  - [ ] Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
-  - [ ] Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
-  - [ ] Conhecendo o Código PYTHON de um DAG (Workflow)
-- [ ] IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
-  - [ ] Introdução aos DAGs no AIRFLOW
-  - [ ] Explorando um Novo DAG no Apache AIRFLOW
-  - [ ] Detalhes de Implementação: Parâmetros do DAG
-  - [ ] Detalhes de Implementação: Operators e Tasks
-  - [ ] Executando o DAG no Apache AIRFLOW
+- [x] 1 - CONHECENDO O APACHE AIRFLOW
+  - [x] 1.1 - Introdução ao Apache AIRFLOW
+  - [x] 1.2 - Principais Características do Apache AIRFLOW - Parte I
+  - [x] 1.3 - Principais Características do Apache AIRFLOW - Parte II
+  - [x] 1.4 - Vamos Imaginar Um Caso de Uso Bem Comum para o Apache AIRFLOW
+  - [x] 1.5 - Porque usar o Apache AIRFLOW?
+  - [x] 1.6 - Mais Motivos para Usar o Apache AIRFLOW
+- [x] 2 - MERGULHANDO NO APACHE AIRFLOW
+  - [x] 2.1 - Arquitetura do Apache Airflow
+  - [x] 2.2 - Conhecendo os DAGs
+  - [x] 2.3 - Airflow - Default Parameters, Context Manager e Operators
+  - [x] 2.4 - Airflow - Hooks e Pools
+  - [x] 2.5 - Airflow - Connections e Filas
+  - [x] 2.6 - Airflow - XCOMS, Variáveis e Branching
+  - [x] 2.7 - Airflow - SUB DAGs e SLA (Service Level Agreement)
+  - [x] 2.8 - Airflow - Trigger Rules e Last Execution Only
+  - [x] 2.9 - Airflow - Zombies/Undeads, Cluster Policies, Jinja Templating e Packaged DAGs
+  - [x] 2.10 - Airflow - Conhecendo o Recurso "BACKFILL"
+- [x] 3 - AIRFLOW OPERATORS
+  - [x] 3.1 - Entendendo os OPERATORS no Apache AIRFLOW
+  - [x] 3.2 - Principais OPERATORS do Apache AIRFLOW
+- [x] 4 - ALTERNATIVAS AO APACHE AIRFLOW
+  - [x] 4.1 - Conhecendo o Azkaban e o Apache OOZIE
+- [ ] 5 - HANDS ON: INSTALANDO, CONFIGURANDO E INICIALIZANDO O APACHE AIRFLOW
+  - [x] 5.1 - Instalação do Apache AIRFLOW
+  - [ ] 5.2 - Configurando o seu Ambiente para as Práticas (HANDS ON)
+  - [ ] 5.3 - Instalando o Apache AIRFLOW utilizando o PIP (Python)
+  - [ ] 5.4 - Inicializando o MetaStore no Apache AIRFLOW
+  - [ ] 5.5 - Conhecendo as Configurações do Apache AIRFLOW (airflow.cfg)
+  - [ ] 5.6 - Criando um Usuário no Apache AIRFLOW
+  - [ ] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
+  - [ ] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
+  - [ ] 5.9 - Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
+  - [ ] 5.10 - Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
+- [ ] 6 - PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
+  - [ ] 6.1 - Migrando o BACKEND (Metastore DB) do SQLITE para o POSTGRESQL
+  - [ ] 6.2 - Preparando o Ambiente para a Migração do Metastore DB (Backend)
+  - [ ] 6.3 - Configurações para o Airflow em Produção (airflow.cfg)
+  - [ ] 6.4 - Instalando o PostgreSQL
+  - [ ] 6.5 - Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
+  - [ ] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
+  - [ ] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
+  - [ ] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
+- [ ] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
+  - [ ] 7.1 - Introdução aos DAGs no AIRFLOW
+  - [ ] 7.2 - Explorando um Novo DAG no Apache AIRFLOW
+  - [ ] 7.3 - Detalhes de Implementação: Parâmetros do DAG
+  - [ ] 7.4 - Detalhes de Implementação: Operators e Tasks
+  - [ ] 7.5 - Executando o DAG no Apache AIRFLOW
 
 # Referências
 
