@@ -87,16 +87,16 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `# airflow db init`
     - `# airflow webserver --port 8080`
     - `# airflow scheduler`
-  - [ ] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
+  - [x] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
   - > airflow users create \
     --username admin \
     --firstname Silvester \
     --lastname Stalone \
     --role Admin \
     --email silvester@email.com
-  - [ ] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
-- [ ] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
-  - [ ] 7.1 - Introdução aos DAGs no AIRFLOW
+  - [x] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
+- [x] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
+  - [x] 7.1 - Introdução aos DAGs no AIRFLOW
   - [ ] 7.2 - Explorando um Novo DAG no Apache AIRFLOW
   - [ ] 7.3 - Detalhes de Implementação: Parâmetros do DAG
   - [ ] 7.4 - Detalhes de Implementação: Operators e Tasks
@@ -106,4 +106,6 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
 
 - https://www.udemy.com/course/apache-airflow-bootcamp/
 - https://www.virtualbox.org/wiki/Downloads
-- https://drive.google.com/drive/folders/1QLEscCLopi8RdcL5JOEqE-5z3Rbyl9bH
+- 5.2 https://drive.google.com/drive/folders/1QLEscCLopi8RdcL5JOEqE-5z3Rbyl9bH
+- 6.8 https://drive.google.com/file/d/1qI6lm2Tk3Opq0DSpv0d1ZCUJ35NEWxhI/view
+- 7.1 https://drive.google.com/file/d/1lLQcyeS9eKqTvY8vI0K5Hym8hLvXE-bg/view
