@@ -70,7 +70,9 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
   - [x] 6.3 - Configurações para o Airflow em Produção (airflow.cfg)
     - `# vim ~/airflow/airflow.cfg`
     - `sql_alchemy_conn = postgres+psycopg2://airflow:airflow@localhost/airflow`
-  - [ ] 6.4 - Instalando o PostgreSQL
+    - `executor = LocalExecutor`
+  - [x] 6.4 - Instalando o PostgreSQL
+    - `apt install postgresql postgresql-contrib`
   - [ ] 6.5 - Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
   - [ ] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
   - [ ] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
