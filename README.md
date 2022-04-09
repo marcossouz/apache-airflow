@@ -53,3 +53,7 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
   - [ ] Detalhes de Implementação: Parâmetros do DAG
   - [ ] Detalhes de Implementação: Operators e Tasks
   - [ ] Executando o DAG no Apache AIRFLOW
+
+# Referências
+
+- https://www.udemy.com/course/apache-airflow-bootcamp/
