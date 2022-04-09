@@ -73,8 +73,11 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `executor = LocalExecutor`
   - [x] 6.4 - Instalando o PostgreSQL
     - `apt install postgresql postgresql-contrib`
-  - [ ] 6.5 - Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
-  - [ ] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
+  - [x] 6.5 - Configurando o PostgreSQL (pg_hba.conf e postgresql.conf)
+    - `vim /etc/postgresql/12/main/pg_hba.conf`
+    - `vim /etc/postgresql/12/main/postgresql.conf` descomentar `listen_addresses = 'localhost'`
+    - `service postgresql restart`
+  - [x] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
   - [ ] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
   - [ ] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
 - [ ] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
