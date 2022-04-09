@@ -38,7 +38,15 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `# apt install python3-pip`
     - `# pip3 install apache-airflow`
   - [x] 5.4 - Inicializando o MetaStore no Apache AIRFLOW
-  - [ ] 5.5 - Conhecendo as Configurações do Apache AIRFLOW (airflow.cfg)
+    - `# airflow db init`
+  - [x] 5.5 - Conhecendo as Configurações do Apache AIRFLOW (airflow.cfg)
+    - `# cd ~/airflow/`
+    - `# pwd` -> /root/airflow
+    - `# ls -lrth`
+    - > -rw-r--r-- 1 root root  44K abr  9 00:00 airflow.cfg
+      > -rw-r--r-- 1 root root 4,6K abr  9 00:00 webserver_config.py
+      > drwxr-xr-x 3 root root 4,0K abr  9 00:00 logs
+      > -rw-r--r-- 1 root root 604K abr  9 00:00 airflow.db
   - [ ] 5.6 - Criando um Usuário no Apache AIRFLOW
   - [ ] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
   - [ ] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
