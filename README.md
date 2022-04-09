@@ -27,7 +27,7 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
   - [x] 3.2 - Principais OPERATORS do Apache AIRFLOW
 - [x] 4 - ALTERNATIVAS AO APACHE AIRFLOW
   - [x] 4.1 - Conhecendo o Azkaban e o Apache OOZIE
-- [ ] 5 - HANDS ON: INSTALANDO, CONFIGURANDO E INICIALIZANDO O APACHE AIRFLOW
+- [x] 5 - HANDS ON: INSTALANDO, CONFIGURANDO E INICIALIZANDO O APACHE AIRFLOW
   - [x] 5.1 - Instalação do Apache AIRFLOW
   - [x] 5.2 - Configurando o seu Ambiente para as Práticas (HANDS ON)
   - [x] 5.3 - Instalando o Apache AIRFLOW utilizando o PIP (Python)
@@ -59,8 +59,11 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `airflow webserver --port 8080`
     - `airflow scheduler`
   - [x] 5.8 - Acessando e Conhecendo a Interface Web do Apache AIRFLOW
-  - [ ] 5.9 - Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
-  - [ ] 5.10 - Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
+  - [x] 5.9 - Executando uma INSTÂNCIA DE TAREFA e BACKFILLS no Apache AIRFLOW
+    - `airflow tasks run example_bash_operator runme_0 2022-04-08`
+    - `airflow dags backfill example_bash_operator --start-date 2022-04-06 --end-date 2022-04-08`
+  - [x] 5.10 - Adicionando a Variável de Ambiente AIRFLOW_HOME no BASH PROFILE
+    - `export AIRFLOW_HOME=~/airflow` in ~/.bashrc
 - [ ] 6 - PREPARANDO O APACHE AIRFLOW PARA O AMBIENTE DE PRODUÇÃO
   - [ ] 6.1 - Migrando o BACKEND (Metastore DB) do SQLITE para o POSTGRESQL
   - [ ] 6.2 - Preparando o Ambiente para a Migração do Metastore DB (Backend)
