@@ -58,3 +58,4 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
 
 - https://www.udemy.com/course/apache-airflow-bootcamp/
 - https://www.virtualbox.org/wiki/Downloads
+- https://drive.google.com/drive/folders/1QLEscCLopi8RdcL5JOEqE-5z3Rbyl9bH
