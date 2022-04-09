@@ -97,10 +97,10 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
   - [x] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
 - [x] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
   - [x] 7.1 - Introdução aos DAGs no AIRFLOW
-  - [ ] 7.2 - Explorando um Novo DAG no Apache AIRFLOW
-  - [ ] 7.3 - Detalhes de Implementação: Parâmetros do DAG
-  - [ ] 7.4 - Detalhes de Implementação: Operators e Tasks
-  - [ ] 7.5 - Executando o DAG no Apache AIRFLOW
+  - [x] 7.2 - Explorando um Novo DAG no Apache AIRFLOW
+  - [x] 7.3 - Detalhes de Implementação: Parâmetros do DAG
+  - [x] 7.4 - Detalhes de Implementação: Operators e Tasks
+  - [x] 7.5 - Executando o DAG no Apache AIRFLOW
 
 # Referências
 
