@@ -78,7 +78,22 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `vim /etc/postgresql/12/main/postgresql.conf` descomentar `listen_addresses = 'localhost'`
     - `service postgresql restart`
   - [x] 6.6 - Criando os Metadados no POSTGRESQL para Migrar o Metastore DB
+    - `sudo -u postgres psql`
+    - `postgres=# CREATE USER airflow PASSWORD 'airflow';`
+    - `CREATE DATABASE airflow;`
+    - `postgres=# GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO airflow;`
+    - `postgres=# GRANT ALL PRIVILEGES ON DATABASE airflow TO airflow;`
+    - `# pip3 install psycopg2-binary`
+    - `# airflow db init`
+    - `# airflow webserver --port 8080`
+    - `# airflow scheduler`
   - [ ] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
+  - > airflow users create \
+    --username admin \
+    --firstname Silvester \
+    --lastname Stalone \
+    --role Admin \
+    --email silvester@email.com
   - [ ] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
 - [ ] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
   - [ ] 7.1 - Introdução aos DAGs no AIRFLOW
