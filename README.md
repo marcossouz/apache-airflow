@@ -49,12 +49,7 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
       - `-rw-r--r-- 1 root root 604K abr  9 00:00 airflow.db`
     - `vim airflow.cfg`
   - [x] 5.6 - Criando um Usuário no Apache AIRFLOW
-    - `airflow users create \`
-    - `> --username admin \`
-    - `> --firstname Silvester \`
-    - `> --lastname Stalone \`
-    - `> --role Admin \`
-    - `> --email silvester@email.com`
+    - `airflow users create --username admin --firstname Silvester --lastname Stalone --role Admin --email silvester@email.com`
   - [x] 5.7 - Inicializando a Interface Web e o SCHEDULER do Apache AIRFLOW
     - `airflow webserver --port 8080`
     - `airflow scheduler`
@@ -88,12 +83,7 @@ Implemente pipelines de dados com exemplos práticos utilizando o Apache Airflow
     - `# airflow webserver --port 8080`
     - `# airflow scheduler`
   - [x] 6.7 - Configurando e Inicializando o NOVO Metastore DB com o PostgreSQL
-  - > airflow users create \
-    --username admin \
-    --firstname Silvester \
-    --lastname Stalone \
-    --role Admin \
-    --email silvester@email.com
+  - `airflow users create --username admin --firstname Silvester --lastname Stalone --role Admin --email silvester@email.com`
   - [x] 6.8 - Conhecendo o Código PYTHON de um DAG (Workflow)
 - [x] 7 - IMPLEMENTANDO SEU PRIMEIRO DAG COM PYTHON NO APACHE AIRFLOW
   - [x] 7.1 - Introdução aos DAGs no AIRFLOW
